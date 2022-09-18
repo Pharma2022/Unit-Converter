@@ -1,7 +1,3 @@
-// javascript
-
-
-
 
 const inputEl = document.getElementById("input-el")
 const convertEl=document.getElementById("convert-el")
@@ -41,23 +37,3 @@ convertEl.addEventListener("click", function(){
 render(myArray,myConversionFactor,myMetric,myImperial,myUnitString,inputValue)
 
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
