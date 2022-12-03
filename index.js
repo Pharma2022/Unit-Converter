@@ -20,7 +20,7 @@ document.getElementById("mass-el")]
 const myConversionFactor=[3.281,0.264,2.204]
 const myMetric=["metres","litres","kilograms"]
 const myImperial=["feet","gallons","pounds"]
-const myUnitString=["Length(Metres/Feet)", "Volume(Litres/Gallons)", "Mass,(Kilograms/Pounds)"]
+const myUnitString=["Length(Metres/Feet)", "Volume(Litres/Gallons)", "Mass(Kilograms/Pounds)"]
 
 let inputValue = 0
 
