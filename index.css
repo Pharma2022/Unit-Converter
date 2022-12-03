@@ -1,175 +1,47 @@
-.container{
-    padding-bottom: 20px;
-    border: 3px solid darkslategray;
-    height:auto;
-    width: 100%;
-    width:900px;
-    display: flex;
-    flex-direction:column; 
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto; 
-    font-family: 'Calibri', sans-serif;	
-}
-h1,h2,h3,h4,h5{
-	    font-family: 'Calibri', sans-serif;	
-}
-	
-h4{
-    margin: 30px 0px ;
-    margin-bottom: 15px;
-    padding: 5px 0px;
-    
-}
-
-label{
-    display: inline-block;
-    height: 45px;
-    width: 180px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 205px;
-	
-    font-weight: bolder;
-   
-     font-family: 'Calibri', sans-serif;		
-}
-
-
-
-
-input{   
-    display: inline-block;
-    width: 145px;
-    height: 35px;
-	padding: 20px 16px;
-	
-	margin-right:205px;
-    margin-top:7px;
- 
-   font-sizing:large;
-    border-radius: 4.6px;
-    font-weight: bold;
-    text-shadow: 0px;
-    border: 3px solid darkslategray;
-     font-family: 'Calibri', sans-serif;	
-    background: white;
-    color: darkslategray;
-    text-align: center;
-		
-}
-
-
-.iConfirm{
-    margin: 0px 40px;
-    margin-top: 25px;
-    background: lightgrey;
-    padding: 20px;    
-    border: 1px solid black;
-}
-button{
-    margin: 40px auto;
-    width: 200px;
-    padding: 12px 4px;
-    text-align: center;
-    border-radius: 8px;
-    background: darkslategray;
-    color: white;
-    text-shadow: 0px 0px 4px black;
-    border: 1px solid black ;
-    font-weight: bold;
-    font-size:x-large;
-    
-}
 
 body{
-   background: white;
-   color: black;
-   text-shadow: 0px ; 
-      font-family: 'Calibri', sans-serif;	
-      
-    
-
-    
-}
-.color{
-       display: flex;
-
-    justify-content: space-between;
-   margin: 10px;
-}
-
-h5{
-    color: grey;
-    margin: 0px auto;
+    margin-top:10px;
     text-align: center;
-    margin-left: 30px;
-}
-
-    
-
-
-
-header{
-    background: darkslategray;
-    color: white;
-    background: cover;
-    margin-bottom: 20px;
-    text-align: center;
-    padding-bottom: 8px;
-    text-shadow: 0px 0px 4px black; 
-    border-top: 5px solid darkslategray;
-    
-}
-
-.minMax{
-    color: gray;
-    display: flex;
-    flex-direction: row;
-    font-style: italic;
-    font-size: smaller;
+    background-color:#1F2937;
+   
   
-}
-
-.underline{
+    color: white;
     
 }
-#shah{
-    
-    display: inline-block;
-    min-width: 100%;
-    width: auto;
-    align-self: center;
-    padding: 20px 25px;
-    margin: 0px 10px;
-}
-#render-dose{
-    
-    display: inline-block;
-    padding: 20px 20px;
-    margin: 40px auto;
-}
-#render-dose h4{
-    margin: 20px;
-    padding: 20px;
-    border: 4px solid gray;
-}
 
-#render-dose span{
-    text-decoration: underline;
-}
-
-#render-dose li,#single{
-    margin-bottom: 10px;
+#lilac-body{
+    background-color:#B295FF;
+    padding: 10px 30px; 
+    margin-bottom: 20px;
     
 }
-#single{
-    text-decoration: none;
-    margin-bottom: 10px
+   
+Button{
+    margin: 30px;
+    width: 117px;
+   height: 42px;
+   background-color: white;
+   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+   border-radius: 5px;
 }
-#render-dose h5{
-  color:  purple;
+#input-el{
+font-size: 30pt;    
+color:red;
+width: 117px;
+height: 83px;
+background: #B295FF;
+border: 2px solid white;
+border-radius: 5px;
+text-align: center;
+
 }
 
 
+#length-el, #volume-el, #mass-el{
+text-align: center;
+background: #273549;
+  color: white; 
+  font-weight: 10; 
+ padding: 20px;
+ min-width: 40%; 
+}
