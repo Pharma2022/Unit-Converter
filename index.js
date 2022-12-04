@@ -22,7 +22,7 @@ const myMetric=["metres","litres","kilograms"]
 const myImperial=["feet","gallons","pounds"]
 const myUnitString=["Length(Metres/Feet)", "Volume(Litres/Gallons)", "Mass(Kilograms/Pounds)"]
 
-let inputValue = 0
+let inputValue = 1
 
 render(myArray,myConversionFactor,myMetric,myImperial,myUnitString,inputValue)
 
