@@ -46,15 +46,4 @@ function render(arr,cVf,metric,imperial,unitString,inputValue){
 }
 
 
-function render(arr,cVf,metric,imperial,unitString,inputValue){
- inputValue= inputEl.value   
-    for (let i=0; i<arr.length; i++){
-        
-    
-      arr[i].innerHTML=  `<p>  ${unitString[i]}</p>
-      <p>${inputValue} ${metric[i]} is ${(inputValue*cVf[i]).toFixed(3)} ${imperial[i]} 
-       ${inputValue} ${imperial[i]} is ${(inputValue/cVf[i]).toFixed(3)} ${metric[i]}
-       </p>`        
-       
-    }
-}
+
