@@ -10,7 +10,7 @@
 
 
 const inputEl = document.getElementById("input-el")
-const convertEl=document.getElementById("convert-el")
+
 
 
 
@@ -24,16 +24,16 @@ const myUnitString=["Length(Metres/Feet)", "Volume(Litres/Gallons)", "Mass(Kilog
 
 let inputValue = 1
 
-render(myArray,myConversionFactor,myMetric,myImperial,myUnitString,inputValue)
+render(myArray,myConversionFactor,myMetric,myImperial,myUnitString,1)
 
-convertEl.addEventListener("click", function(){
+document.getElementById("convert-el").addEventListener("click", () =>{
 render(myArray,myConversionFactor,myMetric,myImperial,myUnitString,inputValue)
      })
 
 
 
 function render(arr,cVf,metric,imperial,unitString,inputValue){
- inputValue= inputEl.value   
+  
     for (let i=0; i<arr.length; i++){
         
     
