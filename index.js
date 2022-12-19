@@ -1,15 +1,3 @@
-/*
-1 meter = 3.281 feet
-1 liter = 0.264 gallon
-1 kilogram = 2.204 pound
-*/
-
-// javascript
-
-
-
-
-const inputEl = document.getElementById("input-el")
 
 
 
@@ -22,7 +10,7 @@ const myMetric=["metres","litres","kilograms"]
 const myImperial=["feet","gallons","pounds"]
 const myUnitString=["Length(Metres/Feet)", "Volume(Litres/Gallons)", "Mass(Kilograms/Pounds)"]
 
-let inputValue = 1
+
 
 render(myArray,myConversionFactor,myMetric,myImperial,myUnitString,1)
 
